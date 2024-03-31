@@ -1,8 +1,3 @@
-translate zip to qra
-save phone muber
-do every hour
-get user profile to fetch sats and send text
-s
 
 This is using 3 different APIs
 
@@ -18,3 +13,8 @@ This is to convert Zipcode to GRID locator for location of overhead satellites
 https://thezipcodes.com/api/v1/search?zipCode=${zipCode}&countryCode=US&apiKey=86d473d8f6115756cd879b49882817c5
 
 
+translate zip to qra
+save phone muber
+do every hour
+get user profile to fetch sats and send text
+s
