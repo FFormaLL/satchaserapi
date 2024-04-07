@@ -4,13 +4,12 @@ const client = require('twilio')(process.env.TWILIO_ACCOUNT_SID, process.env.TWI
 const twilioNumber = process.env.TWILIO_NUMBER
 
 
-
-async function run() {
+async function run(number) {
     const parsedData = await buildsatprofile.run()
     const smsString = `Hey! Satellites overhead!\n\n${parsedData}`
     console.log(smsString)
-
-    const number = ""
+    console.log(number)
+    
 
     client.messages
         .create({
@@ -23,4 +22,5 @@ async function run() {
 
 
 }
-run()
+
+module.exports = {run}

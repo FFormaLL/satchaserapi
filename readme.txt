@@ -13,8 +13,21 @@ This is to convert Zipcode to GRID locator for location of overhead satellites
 https://thezipcodes.com/api/v1/search?zipCode=${zipCode}&countryCode=US&apiKey=86d473d8f6115756cd879b49882817c5
 
 
-translate zip to qra
-save phone muber
-do every hour
-get user profile to fetch sats and send text
-s
+Get up and working
+
+Clean up ugly code 
+
+add function to text twilio to send sats
+
+storage.js with functions that you pass params to save data
+let storage figure out where to store
+
+contracts sending and receiving concept
+api route has contract 
+contract of user is these props
+success saving is thisfailed sto save is this
+
+streamline code with functions
+
+INPUT VALIDATION
+user inputted data needs to made sure its whats expected
